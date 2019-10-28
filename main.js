@@ -2,11 +2,13 @@
 // {
 //     console.log('Name => ', name);
 // }
+//
+// getFunction('Linux BR');
 
 (function check(name) {
-    console.log('Name => ', name);
-})("Koller");
- // getFunction("Linux");
+    return console.log('Name => ' + name);
+})('Linux-Birl');
+
 
 //console.log('hello from external scripts');
 
